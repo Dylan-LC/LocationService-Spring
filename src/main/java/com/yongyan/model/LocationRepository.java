@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param;
 
 /**
  * created by yongyan on 09/10/2018
- * combine database api with re-properties we build to satisfy the requirements of controller, break the middle wall.
+ * combine database api with re-properties we build to satisfy the requirements of controller. middle well do generate final correct data to controller.
  */
 
 public interface LocationRepository extends JpaRepository<Location, Long> { // support what operations controller needs

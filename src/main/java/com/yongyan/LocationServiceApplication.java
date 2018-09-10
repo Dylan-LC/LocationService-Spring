@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * Created by yongyan on 09/09/2018
+ * controllers call services, services call repositories, and repositories communicate with database directly!
  */
 
 /**
